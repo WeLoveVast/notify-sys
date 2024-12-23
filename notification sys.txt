@@ -2293,7 +2293,7 @@ function Library:SetWatermark(Text)
 end;
 
 function Library:Notify(Text, Time)
-    Text = "[zwag.lol]: "..Text
+    Text = "[STMAP.NET]: "..Text
 
     local XSize, YSize = Library:GetTextBounds(Text, Enum.Font.Code, 14);
     YSize = YSize + 7
